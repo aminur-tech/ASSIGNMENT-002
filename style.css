@@ -36,25 +36,72 @@
  
 
 
+/* deal section */
+.deals{
+  margin-top: 100px;
+}
 
+.deal-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  padding: 40px;
+ 
+}
+
+.deal-left {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+.deal-right {
+  height: 100%;
+}
+
+/* Shared box */
+.deal-box {
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  min-height: 200px;
+  
+}
+
+.deal-content {
+  padding: 20px 30px;
+  text-align: center;
+  color: #fff;
+}
+
+
+.deal-content a {
+  color: #f8f3f3;
+  padding: 8px 16px;
+  font-weight: bold;
+  text-decoration: underline;
+}
 
 
 
 
 /* Join the colorful Bunch */
 
-.subscribe {
+.colorful-bunch {
   display: grid;
   place-items: center;
-  max-width: 1440px;
+  width:1440px;
   height: 533px;
   background-image: url(./img/news-letter-bg.png);
   text-align: center;
   color: #fff;
   margin: 100px auto;
+  margin-left: -140px;
 }
 
-.content {
+.colorful-container {
   display: grid;
   gap: 20px;
   width: 100%;
@@ -82,6 +129,8 @@ button {
   font-weight: bold;
   cursor: pointer;
 }
+
+
 
 
 
