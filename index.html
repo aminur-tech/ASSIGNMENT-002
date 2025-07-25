@@ -20,7 +20,7 @@
         <!--font awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
+       <!-- font awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
 
@@ -29,21 +29,22 @@
 </head>
 <body>
     <header class="container">
+      <!-- nav section -->
         <nav class="flex justify-between items-center">
             <img src="img/logo.png" alt="">
-            <ul class="flex gap-[48px]">
-                <li class="font-[#252432]"><a href="">Home</a></li>
-                <li><a  class="secondary-color" href="">Shop</a></li>
-                <li><a  class="secondary-color"  href="">About us</a></li>
+            <ul class="flex gap-12">
+                <li class="font-[#252432] hide" ><a href="">Home</a></li>
+                <li><a  class="secondary-color hide" href="">Shop</a></li>
+                <li><a  class="secondary-color hide"  href="">About us</a></li>
                 <li><a href=""><i class="fa-solid fa-cart-shopping"></i>Cart($56)</a></li>
             </ul>
         </nav>
 
         <!-- banner-section -->
-         <section class="banner flex items-center justify-center gap-x-8 mt-[130px] mb-[80px]">
+         <section class="banner flex items-center justify-center gap-8 mt-28">
            <div>
-             <h1 class="noto-serif text-[4.0625rem] font-bold leading-20">ALWAYS <span class="primary-color">FRESH <br>FLOWERS </span></h1>
-            <p class="inter text-[1.375rem] taxt-[#000000] opacity-50 mt-4">Indulge your senses with the beauty and fragrance of <br> our fresh flower shop. From classic roses to exotic <br> blooms, we offer a wide variety of fresh flowers that <br> are perfect for any occasion. </p>
+             <h1 class="noto-serif text-[4.0625rem] font-bold head-tag">ALWAYS <span class="primary-color">FRESH <br>FLOWERS </span></h1>
+            <p class="inter text-[1.375rem] taxt-[#000000] opacity-50 mt-4 p-tag">Indulge your senses with the beauty and fragrance of <br class="hide"> our fresh flower shop. From classic roses to exotic <br class="hide"> blooms, we offer a wide variety of fresh flowers that <br class="hide"> are perfect for any occasion. </p>
            </div>
            <div>
             <img src="img/hero-flower.png" alt="">
@@ -51,84 +52,87 @@
          </section>
     </header>
 
+    </header>
+
+
     <main>
         <!-- our plants -->
          <section class="our-plants container">
-             <div class="plant-info text-center ">
-            <h1 class="text-[3.125rem] noto-serif font-bold">Our <span class="primary-color">Plants</span></h1>
-             <p class="inter text-[1.375rem] taxt-[#000000] opacity-50 mt-4">Indulge your senses with the beauty and fragrance of our fresh flower shop. From  <br>classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+             <div class="plant-info text-center mt-20 ">
+            <h1 class="text-5xl noto-serif font-bold head-tag">Our <span class="primary-color">Plants</span></h1>
+             <p class="inter text-xl taxt-[#000000] opacity-50 mt-4 p-tag">Indulge your senses with the beauty and fragrance of our fresh flower shop. From  <br class="hide">classic roses to exotic blooms, we offer a wide variety of fresh.</p>
              </div>
-
-             <div class="plant-cards grid grid-cols-4 gap-4 mt-[50px] mb-[200px]">
+             <!-- plant cards -->
+             <div class="plant-cards grid grid-cols-4 gap-4 mt-16 mb-32">
                 <div class="card">
                     <img src="img/sample-flower-image.png" alt="">
-                    <h4 class="inter text-[1.375rem] text-center m-3 ">Lily Blossom <br> 20 USD</h4>
+                    <h4 class="inter text-xl text-center m-3 ">Lily Blossom <br> 20 USD</h4>
                     <button>ADD TO CART</button>
                 </div>
                 <div class="card">
                     <img src="img/sample-flower-image.png" alt="">
-                    <h4 class="inter text-[1.375rem] text-center m-3">Lily Blossom <br> 20 USD</h4>
+                    <h4 class="inter text-xl text-center m-3">Lily Blossom <br> 20 USD</h4>
                     <button>ADD TO CART</button>
                 </div>
                 <div class="card">
                     <img src="img/sample-flower-image.png" alt="">
-                    <h4 class="inter text-[1.375rem] text-center m-3 ">Lily Blossom <br> 20 USD</h4>
+                    <h4 class="inter text-xl text-center m-3 ">Lily Blossom <br> 20 USD</h4>
                     <button>ADD TO CART</button>
                 </div>
                 <div class="card">
                     <img src="img/sample-flower-image.png" alt="">
-                    <h4 class="inter text-[1.375rem] text-center m-3 ">Lily Blossom <br> 20 USD</h4>
+                    <h4 class="inter text-xl text-center m-3 ">Lily Blossom <br> 20 USD</h4>
                     <button>ADD TO CART</button>
                 </div>
                 <div class="card">
                     <img src="img/sample-flower-image.png" alt="">
-                    <h4 class="inter text-[1.375rem] text-center m-3 ">Lily Blossom <br> 20 USD</h4>
+                    <h4 class="inter text-xl text-center m-3 ">Lily Blossom <br> 20 USD</h4>
                     <button>ADD TO CART</button>
                 </div>
                 <div class="card">
                     <img src="img/sample-flower-image.png" alt="">
-                    <h4 class="inter text-[1.375rem] text-center m-3 ">Lily Blossom <br> 20 USD</h4>
+                    <h4 class="inter text-xl text-center m-3 ">Lily Blossom <br> 20 USD</h4>
                     <button>ADD TO CART</button>
                 </div>
                 <div class="card">
                     <img src="img/sample-flower-image.png" alt="">
-                    <h4 class="inter text-[1.375rem] text-center m-3 ">Lily Blossom <br> 20 USD</h4>
+                    <h4 class="inter text-xl text-center m-3 ">Lily Blossom <br> 20 USD</h4>
                     <button>ADD TO CART</button>
                 </div>
                 <div class="card">
                     <img src="img/sample-flower-image.png" alt="">
-                    <h4 class="inter text-[1.375rem] text-center m-3">Lily Blossom <br> 20 USD</h4>
+                    <h4 class="inter text-xl text-center m-3">Lily Blossom <br> 20 USD</h4>
                     <button>ADD TO CART</button>
                 </div>
              </div>
          </section>
 
          <!-- flower lover-section -->
-          <section class="flower-lover container flex items-center space-x-[50px] relative mt-[200px]">
+          <section class="flower-lover container flex items-center gap-28 relative">
             <div class="flex-1/2">
                 <img src="img/flower-store.png" alt="" class="w-full h-auto">
-                <img src="img/trusted-badge.png" alt="" class="absolute top-[-100px] left-[380px] w-60 h-60"> 
+                <img src="img/trusted-badge.png" alt="" class="absolute top-[-100px] left-[380px] w-60 h-60 hide"> 
             </div>
             <div class="flex-1/2 ">
-                <h1 class="text-[3.125rem] noto-serif font-bold">Flower & Plants Lover</h1>
-                <ul class="inter text-[1.375rem] taxt-[#000000] opacity-50 mt-2 list-disc ml-10">
-                    <li>Indulge your senses with the beauty and <br> fragrance of our fresh flower shop. From classic <br> roses to exotic blooms, we offer a wide variety <br> of fresh.</li>
-                    <li>Indulge your senses with the beauty and <br> fragrance of our fresh flower shop. From classic <br> roses to exotic blooms, we offer a wide variety <br> of fresh.</li>
-                    <li>Indulge your senses with the beauty and <br> fragrance of our fresh flower shop. From classic <br> roses to exotic blooms, we offer a wide variety <br> of fresh.</li>
+                <h1 class="text-5xl noto-serif font-bold head-tag">Flower & Plants Lover</h1> <br>
+                <ul class="inter text-xl taxt-[#000000] opacity-50 mt-2 list-disc ml-10 p-tag">
+                    <li>Indulge your senses with the beauty and <br class="hide"> fragrance of our fresh flower shop. From classic <br class="hide"> roses to exotic blooms, we offer a wide variety <br class="hide"> of fresh.</li>
+                    <li>Indulge your senses with the beauty and <br class="hide"> fragrance of our fresh flower shop. From classic <br class="hide"> roses to exotic blooms, we offer a wide variety <br class="hide"> of fresh.</li>
+                    <li>Indulge your senses with the beauty and <br class="hide"> fragrance of our fresh flower shop. From classic <br class="hide"> roses to exotic blooms, we offer a wide variety <br class="hide"> of fresh.</li>
                 </ul>
             </div>
           </section>
 
 
            <!-- Latest  Deals -->
-          <section class="deals container">
+          <section class="deals mt-20">
             <div class="text-center">
-                <h1 class="text-[3.125rem] noto-serif font-bold">Latest <span class="primary-color">Deals</span></h1>
-                <p class="inter text-[1.375rem] taxt-[#000000] opacity-50 mt-4">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+                <h1 class="text-5xl noto-serif font-bold head-tag">Latest <span class="primary-color">Deals</span></h1>
+                <p class="inter text-xl taxt-[#000000] opacity-50 mt-4 p-tag">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br class="hide"> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
             </div>
 
-
-            <div class="deal-container">
+           <!-- deals-container -->
+            <div class="deal-container container">
              <div class="deal-left">
                <div class="deal-box" style="background-image: url(./img/deal-ana.png);">
                  <div class="deal-content">
@@ -152,12 +156,10 @@
           </div>
               
 
-
-          
           <!-- Join the colorful Bunch -->
-        <section class="colorful-bunch ">
-           <div class="colorful-container">
-              <h2 class="text-[3.125rem] noto-serif font-bold m-0">Join the colorful Bunch</h2>
+        <section class="colorful-bunch mt-16 mb-16">
+           <div class="colorful-container grid gap-5 w-full max-w-3xl">
+              <h2 class="text-5xl noto-serif font-bold m-0">Join the colorful Bunch</h2>
               <form class="form">
                   <input type="email" placeholder="Write email" required />
                   <button type="submit">Subscribe</button>
@@ -167,14 +169,11 @@
     </main>
 
    <footer class='grid grid-cols-4 p-10 container gap-6'>
-    
-    <!-- Column 1: Logo and Description -->
     <div class="space-y-4">
       <img src="img/logo.png" alt="Logo" class="w-28">
-      <p class="inter text-[1.375rem] taxt-[#000000] opacity-50">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
+      <p class="inter text-xl taxt-[#000000] opacity-50">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
     </div>
 
-    <!-- Column 2: Links -->
     <div class="space-y-5 secondary-color">
       <a href="#" class="block">Home</a>
       <a href="#" class="block">About Us</a>
@@ -183,7 +182,6 @@
       <a href="#" class="block">Contact Us</a>
     </div>
 
-    <!-- Column 3: Links -->
     <div class="space-y-5 secondary-color">
       <a href="#" class="block">Features</a>
       <a href="#" class="block">Pricing</a>
@@ -192,8 +190,7 @@
       <a href="#" class="block">Help Center</a>
     </div>
 
-    <!-- Column 4: Social Icons -->
-    <div class="flex justify-center gap-4">
+    <div class="flex gap-4">
       <a href="#"><i class="fab fa-linkedin-in text-blue-700 text-2xl"></i></a>
       <a href="#"><i class="fa-brands fa-twitter text-2xl"></i></a>
       <a href="#"><i class="fab fa-facebook-f text-blue-600 text-2xl"></i></a>
@@ -201,7 +198,5 @@
     </div>
   </div>
 </footer>
-
-    
 </body>
 </html>

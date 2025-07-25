@@ -12,8 +12,8 @@
 }
 
 .container{
-    max-width: 1140px;
-    margin: 0 auto;
+  max-width: 1140px;
+  margin: auto;
 }
  /* share-color */
  .primary-color{
@@ -24,23 +24,27 @@
     color: #8987A1;
  }
 
+ *{
+  box-sizing: border-box;
+ }
+
+
 
 /* card-section */
 .plant-cards button{
     background-color: #E95A08;
     color: #FFFFFF;
     font-family: "Inter", sans-serif;
-    width: 270px;
+    width: 100%;
     height: 50px;
+}
+.plant-cards img{
+  width: 100%;
 }
  
 
 
 /* deal section */
-.deals{
-  margin-top: 100px;
-}
-
 .deal-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -59,7 +63,6 @@
   height: 100%;
 }
 
-/* Shared box */
 .deal-box {
   background-size: cover;
   background-position: center;
@@ -67,7 +70,6 @@
   display: grid;
   place-items: center;
   min-height: 200px;
-  
 }
 
 .deal-content {
@@ -75,7 +77,6 @@
   text-align: center;
   color: #fff;
 }
-
 
 .deal-content a {
   color: #f8f3f3;
@@ -85,27 +86,15 @@
 }
 
 
-
-
 /* Join the colorful Bunch */
-
 .colorful-bunch {
   display: grid;
   place-items: center;
-  width:1440px;
   height: 533px;
   background-image: url(./img/news-letter-bg.png);
   text-align: center;
   color: #fff;
-  margin: 100px auto;
-  margin-left: -140px;
-}
-
-.colorful-container {
-  display: grid;
-  gap: 20px;
   width: 100%;
-  max-width: 750px;
 }
 
 .form {
@@ -130,6 +119,69 @@ button {
   cursor: pointer;
 }
 
+/* responsive */
+ @media screen and (max-width:575px) {
+  .hide{
+     display: none;
+  }
+  nav{
+    padding: 5px;
+  }
+ 
+  .banner{
+    flex-direction: column-reverse;
+    padding: 10px;
+    margin-top: 40px;
+    
+  }
+  .banner h1{
+   line-height: 40px;
+  }
+  /* share size */
+  .head-tag{
+    font-size: 24px;
+  }
+  .p-tag{
+    font-size: 16px;
+  }
+
+  .plant-info{
+    margin-top: 40px;
+  }
+  .plant-cards{
+    grid-template-columns:  repeat(2,1fr);
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 10px;
+  }
+  .flower-lover{
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+
+  }
+
+  .deals{
+    margin-top: 40px;
+  }
+
+  .deal-container{
+    grid-template-columns: 1fr;
+  
+  }
+  .colorful-bunch{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .colorful-container{
+    padding: 20px;
+  }
+
+  footer{
+    grid-template-columns: 1fr;
+  }
+  
+ }
 
 
 
